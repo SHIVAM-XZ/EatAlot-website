@@ -1,0 +1,97 @@
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1rem 2%;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width:760px) {
+    header .icons #bar {
+        display: inline-block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: white;
+        border-top: 0.1rem solid rgb(0, 0, 0, .2);
+        border-bottom: 0.1rem solid rgb(0, 0, 0, .2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        font-size: 2rem;
+        background-color: #eee;
+    }
+
+    .home .slider .slide .content h3 {
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .order form .inputbox .inputs {
+        width: 100%;
+    }
+}
+
+@media (max-width:1585px) {
+    .input {
+        right: 20%;
+    }
+}
+
+@media (max-width:1200px) {
+    .input {
+        right: 23%;
+        left: 23%;
+    }
+}
+
+@media (max-width:771px) {
+    .input {
+        left: 21%;
+        right: 27%;
+    }
+
+}
+
+@media (max-width:689px) {
+    .input {
+        left: 26%;
+        right: 35%;
+    }
+
+}
+
+@media (max-width:415px) {
+    .input {
+        left: 31%;
+        right: 49%;
+        padding: 1rem 0;
+    }
+
+}
